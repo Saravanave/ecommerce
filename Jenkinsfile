@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     DOCKERHUB_USER = "saravanave"
-    DEV_REPO = "dev"
+    DEV_REPO = "main"
     PROD_REPO = "prod"
     IMAGE_NAME = "devops-build-react-app"
     SSH_USER = "ubuntu"
