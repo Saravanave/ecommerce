@@ -1,0 +1,6 @@
+# Ignore project-specific files
+# Ignore development dependencies and artifacts
+node_modules/
+.dockerignore .env
+# Ignore system files
+.DS_Store
